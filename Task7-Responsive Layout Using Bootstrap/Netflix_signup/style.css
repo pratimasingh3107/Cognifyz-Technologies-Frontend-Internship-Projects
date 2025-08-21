@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Montserrat";
+	width:100%;
+}
+
+.white-section{
+    background: linear-gradient(to bottom right,rgb(229, 9, 20), rgb(0,0,0));
+    padding: 5% 8% 7%;
+    text-align: center;
+}
+
+svg{
+    width: 30%;
+    /*height: 6%;*/
+    margin: 3% 10% 5%;
+}
+
+@media (max-width: 445px){
+    .section-heading{
+        font-size: 2.3rem;
+        color: #8f8f8f;
+    }
+}
+
+.section-heading{
+    color: #fff;
+    font-size: 3rem;
+    
+}
+
+.sec-heading{
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.btn{
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    font-weight: 500;
+}
+
+.cards{
+    margin: 3%;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    border: 1.5px solid black;
+    
+}
+
+p{
+	color: rgb(180, 180, 180); 
+}
+
+#card-head{
+	background-color: rgb(0, 0, 0, 0.35);
+    color: rgb(120, 120, 120);
+}
+
+.card-header, .card-body{
+    padding: 5%;
+}
+
+.sign-in{
+	margin: 5% auto 3%;
+}
+
+.sign-link{
+	color: white;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.sign-link:hover{
+	color: rgb(120, 120, 120);
+	/*text-transform: none;*/
+	text-decoration: none;
+}
